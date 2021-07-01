@@ -1,0 +1,206 @@
+/*FONTS*/
+@font-face {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/GothamPro-Medium.woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/GothamPro-Bold.woff");
+  font-display: swap;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: "Gotham Pro";
+  font-weight: 500;
+  min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+
+.page {
+  background-color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 290px;
+  margin: 0 auto;
+}
+
+.title {
+  padding: 24px 75px 18px 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 22px;
+}
+.text--guide {
+  font-size: 18px;
+  margin-bottom: 23px;
+  padding: 0 13px;
+}
+
+.guide {
+  overflow: hidden;
+}
+.guide__inner {
+  display: flex;
+  flex-direction: column;
+}
+.guide__inner--item {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.guide__inner--item:nth-child(1) {
+  background-color: #FAA48C;
+}
+.guide__inner--item:nth-child(2) {
+  background-color: #FBE8B1;
+}
+.guide__inner--item:nth-child(3) {
+  background-color: #9CD8FF;
+}
+.guide__inner--item__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 13px 22px 19px;
+}
+.guide__inner--item__body {
+  padding-top: 11px;
+  display: none;
+}
+.guide .inner__guide {
+  display: flex;
+  flex-direction: column;
+}
+.guide .inner__guide--item {
+  padding: 10px 13px;
+  border-bottom: 1px #000000 solid;
+  display: flex;
+  align-items: center;
+}
+.guide .inner__guide--item:last-child {
+  border-bottom: none;
+  padding-bottom: 30px;
+}
+.guide .inner__guide--item .rocket {
+  display: flex;
+  flex: 0 0 auto;
+  width: 28px;
+  height: 27px;
+}
+.guide .inner__guide--item .live {
+  display: flex;
+  flex: 0 0 auto;
+  margin-right: 15px;
+  width: 27px;
+  height: 29px;
+}
+.guide .inner__guide--item .location {
+  display: flex;
+  flex: 0 0 auto;
+  margin-right: 15px;
+  width: 27px;
+  height: 14px;
+}
+.guide .inner__guide--item .chat {
+  display: flex;
+  flex: 0 0 auto;
+  margin-right: 15px;
+  width: 27px;
+  height: 28px;
+}
+.guide .inner__guide--item .flag {
+  display: flex;
+  flex: 0 0 auto;
+  margin-right: 15px;
+  width: 28px;
+  height: 33px;
+}
+.guide .inner__guide--item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  width: 228px;
+  height: 47px;
+  background: #000000;
+  border-radius: 45px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  padding: 13px 0;
+  text-align: center;
+  margin-bottom: 27px;
+  margin-left: 13px;
+}
+
+.open {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+.open .svg--plus {
+  fill: #231F20;
+}
+.open--rotate {
+  background-color: #000000;
+  transform: rotate(45deg);
+  transition: 0.2s linear;
+}
+.open--rotate .svg--plus {
+  fill: #ffffff;
+}
