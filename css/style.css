@@ -128,6 +128,7 @@ button:focus {
 .guide .inner__guide--item .rocket {
   display: flex;
   flex: 0 0 auto;
+  margin-right: 15px;
   width: 28px;
   height: 27px;
 }

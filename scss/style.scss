@@ -118,6 +118,7 @@ button:focus {
                 .rocket {
                     display: flex;
                     flex: 0 0 auto;
+                    margin-right: 15px;
                     width: 28px;
                     height: 27px;
                 }
@@ -202,11 +203,3 @@ button:focus {
                 }
     }
 }
-// .svg {
-//     display: none;
-//     &--plus {
-//         display: block;
-//         width: 15px;
-//         height: 15px;
-//     }
-// }
