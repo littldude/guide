@@ -52,7 +52,7 @@ button:focus {
 
 .container {
   width: 100%;
-  max-width: 290px;
+  padding: 0 3%;
   margin: 0 auto;
 }
 
